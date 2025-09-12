@@ -9,7 +9,7 @@ public class Variaveis {
 		Scanner leia = new Scanner(System.in);
 		//scanner o metodo de entrada de dados no teclado
 		
-		System.out.println("digite o texto");
+		System.out.println("digite um numero de peso");
 		int peso = leia.nextInt();
 		//ler valores inteiros 
 		
