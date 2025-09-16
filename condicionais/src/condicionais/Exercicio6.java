@@ -10,7 +10,7 @@ public class Exercicio6 {
 		
 		String colaborador;
 		int codigo;
-		float salario;
+		float salario, novosalario;
 		
 		System.out.println("==========================");
 		System.out.println("COD    CARGO    PERCENTUAL");
@@ -37,12 +37,12 @@ public class Exercicio6 {
 		case 1:
 			System.out.println("nome do colaborador: " + colaborador);
 			System.out.println("cargo: gerente");
-			System.out.println("salario: " + salario + (0.10 * salario));
+			System.out.printf("salario: "+ salario + (0.1 * salario));
 			break;
 		case 2:
 			System.out.println("nome do colaborador: " + colaborador);
 			System.out.println("cargo: vendedor");
-			System.out.println("salario: " + salario + (0.07 * salario));
+			System.out.printf("salario: " + salario + (0.07 * salario));
 			break;
 		case 3:
 			System.out.println("nome do colaborador: " + colaborador);
