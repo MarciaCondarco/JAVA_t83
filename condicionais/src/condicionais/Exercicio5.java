@@ -29,22 +29,28 @@ public class Exercicio5 {
 		switch (numero) {
 
 		case 1:
+			System.out.println("cachorro-quente");
 			System.out.printf("o valor total é: " + quantidade * 10);
 			break;
 		case 2:
-			System.out.printf("o valor total é: ", quantidade * 15);
+			System.out.println("x-salada");
+			System.out.printf("o valor total é: " + quantidade * 15);
 			break;
 		case 3:
-			System.out.printf("o valor total é: ", quantidade * 18);
+			System.out.println("x-bacon");
+			System.out.printf("o valor total é: " + quantidade * 18);
 			break;
 		case 4:
-			System.out.printf("o valor total é: ", quantidade * 12);
+			System.out.println("bauru");
+			System.out.printf("o valor total é: " + quantidade * 12);
 			break;
 		case 5:
-			System.out.printf("o valor total é: ", quantidade * 8);
+			System.out.println("refrigerante");
+			System.out.printf("o valor total é: " + quantidade * 8);
 			break;
 		case 6:
-			System.out.printf("o valor total é: ", quantidade * 13);
+			System.out.println("cachorro quente");
+			System.out.printf("o valor total é: " + quantidade * 13);
 			break;
 		}
 		leia.close();
