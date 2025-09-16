@@ -65,7 +65,7 @@ public class Exercicio6 {
 			System.out.println("salario: " + salario + (0.08 * salario));
 			break;
 		}
-		
+		leia.close();
 	}
 
 }
