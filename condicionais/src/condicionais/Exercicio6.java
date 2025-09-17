@@ -64,6 +64,8 @@ public class Exercicio6 {
 			System.out.println("cargo: tecnico de ti");
 			System.out.println("salario: " + salario + (0.08 * salario));
 			break;
+		default:
+			System.out.println("opção invalida");
 		}
 		leia.close();
 	}
