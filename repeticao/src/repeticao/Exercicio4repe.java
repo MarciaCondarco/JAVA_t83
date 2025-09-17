@@ -108,12 +108,12 @@ public class Exercicio4repe {
 		}
 		
 		
-		System.out.printf("O número de pessoas desenvolvedoras Backend: %d", a);
-		System.out.printf("O número de Mulheres Cis e Trans desenvolvedoras Frontend: ", (i + m + b));
-		System.out.printf("O número de Homens Cis e Trans desenvolvedores Mobile maiores de 40 anos: ", (f+n+e));
-		System.out.printf("O número de Não Binários desenvolvedores FullStack menores de 30 anos: ", (g + d + p));
-		System.out.printf("O número total de pessoas que responderam à pesquisa: ", quantcontinua);
-		System.out.printf("A média de idade das pessoas que responderam à pesquisa: ", (resulidade/quantcontinua));
+		System.out.printf("O número de pessoas desenvolvedoras Backend: %d%n", a);
+		System.out.printf("O número de Mulheres Cis e Trans desenvolvedoras Frontend: %d%n", (i + m + b));
+		System.out.printf("O número de Homens Cis e Trans desenvolvedores Mobile maiores de 40 anos: %d$n", (f+n+e));
+		System.out.printf("O número de Não Binários desenvolvedores FullStack menores de 30 anos: %d%n", (g + d + p));
+		System.out.printf("O número total de pessoas que responderam à pesquisa: %d%n", quantcontinua);
+		System.out.printf("A média de idade das pessoas que responderam à pesquisa: %f", (resulidade/quantcontinua));
 		
 		leia.close();
 			
