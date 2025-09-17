@@ -36,7 +36,7 @@ public class ExemploMatriz {
 			}
 		}
 		/////////////exibir
-		System.out.println("\n Listar os dados - matriz numeros reais");
+		System.out.println("Listar os dados - matriz numeros reais\n");
 		for (int linha = 0; linha < numerosReais.length; linha++) {
 			
 			// for interno percorre as colunas
