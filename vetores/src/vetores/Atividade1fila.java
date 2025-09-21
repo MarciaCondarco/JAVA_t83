@@ -50,7 +50,7 @@ public class Atividade1fila {
 			menu();
 			System.out.println("Digite uma opção:");
 			numero = leia.nextInt();
-;
+
 		}
 		
 		System.out.println("opção invalida");
