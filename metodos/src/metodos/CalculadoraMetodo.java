@@ -23,7 +23,8 @@ public class CalculadoraMetodo {
 		System.out.printf("%.2f + %.2f = %.2f%n", numero1, numero2, somar(numero1, numero2));
 		System.out.printf("%.2f - %.2f = %.2f%n", numero1, numero2, subtrair(numero1, numero2));
 		System.out.printf("%.2f * %.2f = %.2f%n", numero1, numero2, multiplicacao(numero1, numero2));
-		resultadoDivisao = divisao(numero1, numero2);
+		resultadoDivisao = divisao(numero1, numero2); //colocando o metodo divisao em uma variavel por causa 
+		//da divisão com zero
 		
 		if(resultadoDivisao == -1) {
 			System.out.println("Não existe divisão por zero");
@@ -34,7 +35,7 @@ public class CalculadoraMetodo {
 			
 		}
 		
-		sobre();
+		sobre(); //chamando o metodo sobre
 		leia.close();
 
 	}
