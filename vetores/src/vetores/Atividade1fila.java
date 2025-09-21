@@ -10,29 +10,29 @@ public class Atividade1fila {
 
 		Scanner leia = new Scanner(System.in);
 
-		String nome;
-		int numero;
+		String nome, numero;
 
 		Queue<String> filaCliente = new LinkedList<String>();
 		
 		menu();
 		System.out.println("Digite uma opção:");
-		numero = leia.nextInt();
+		numero = leia.nextLine();
 		
-		while(numero == 1 || numero == 2 || numero == 3 || numero == 0) {
+		while(numero.equalsIgnoreCase("1")|| numero.equalsIgnoreCase("2") || numero.equalsIgnoreCase("3") || numero.equalsIgnoreCase("0")) {
 			
-			if(numero == 1) {
+			if(numero.equalsIgnoreCase("1")) {
 				System.out.println("Digite o nome: ");
-				leia.skip("\\R");
 				nome = leia.nextLine();
 				filaCliente.add(nome);
+				System.out.println("Fila");
+				System.out.println(filaCliente);
 				System.out.println("Cliente Adicionado! ");
 			}
-			else if(numero == 2) {
+			else if(numero.equalsIgnoreCase("2")) {
 				System.out.println("Lista de Clientes na Fila: ");
 				System.out.println(filaCliente);
 			}
-			else if (numero == 3) {
+			else if (numero.equalsIgnoreCase("3")) {
 				if(filaCliente.isEmpty() == true) {
 					System.out.println("A Fila esta vazia! ");
 				}else {				
@@ -49,7 +49,7 @@ public class Atividade1fila {
 			
 			menu();
 			System.out.println("Digite uma opção:");
-			numero = leia.nextInt();
+			numero = leia.nextLine();
 
 		}
 		
